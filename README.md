@@ -6,6 +6,9 @@
 ## Setup
     Clone the code and put them into the folder, create a new matlab to use the function of 'distribute'
     
+## Package
+    Note that the all the code shown above requires installation of the Matpower package.
+    
 ## Distribute Slack Variants of Power Flow Algorithms
     The power flow problem discussed in class uses a single slack bus with specified voltage magnitude and phase angle (Vslack = 1 and θslack = 0°) and unspecified active and reactive power injections (Pslack and Qslack). A more general power flow formulation called a distributed slack can better model the actual behavior of typical power systems.
     
@@ -34,4 +37,7 @@ Inputs: `mpc` - MATPOWER case <br>
 Output: `V` (Amplitude of voltage), `success` (1 if convergence achieved and 0 if failed), `et` (elapsed time), and `nither` <br> (number of iterations).<br>
 
 ## performance
+The code run over many MATPOWER cases to test the overall performance. The x-axis measured elapsed time before the code converged and the y-axis measured the fraction of all cases that converged at a given time.
 ![performance of NR](https://github.com/zhengboxuan/Distributed-buses-of-power-flow/blob/master/NR.png)
+![performance of FDPF](https://github.com/zhengboxuan/Distributed-buses-of-power-flow/blob/master/FDPF.png)
+
