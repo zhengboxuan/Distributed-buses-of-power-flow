@@ -38,6 +38,6 @@ Output: `V` (Amplitude of voltage), `success` (1 if convergence achieved and 0 i
 
 ## performance
 The code run over many MATPOWER cases to test the overall performance. The x-axis measured elapsed time before the code converged and the y-axis measured the fraction of all cases that converged at a given time.<br>
-![performance of NR](https://github.com/zhengboxuan/Distributed-buses-of-power-flow/blob/master/NR.png)
+![performance of NR](https://github.com/zhengboxuan/Distributed-buses-of-power-flow/blob/master/NR.png)<br>
 ![performance of FDPF](https://github.com/zhengboxuan/Distributed-buses-of-power-flow/blob/master/FDPF.png)
 
