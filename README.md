@@ -34,3 +34,4 @@ Inputs: `mpc` - MATPOWER case <br>
 Output: `V` (Amplitude of voltage), `success` (1 if convergence achieved and 0 if failed), `et` (elapsed time), and `nither` <br> (number of iterations).<br>
 
 ## performance
+![performance of NR](https://github.com/zhengboxuan/Distributed-buses-of-power-flow/blob/master/NR.png)
